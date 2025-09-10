@@ -1,0 +1,1 @@
+We replicate the Gapminder visualization (life expectancy vs GDP per capita on log scale) using the `gapminder` R package and extend it with regression models and interpretation.
