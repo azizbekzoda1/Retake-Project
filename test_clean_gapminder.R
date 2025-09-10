@@ -1,0 +1,1 @@
+test_that('clean_gapminder creates log_gdp and factors', { df <- load_gapminder(); cl <- clean_gapminder(df); expect_true('log_gdp' %in% names(cl)); expect_true(is.factor(cl$continent)); expect_true(all(is.finite(cl$log_gdp))) })
