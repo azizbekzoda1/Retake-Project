@@ -1,0 +1,1 @@
+We confirm our joint topic: **Replicating and Extending Gapminder's GDP–Life Expectancy analysis** using the `gapminder` dataset.
