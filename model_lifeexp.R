@@ -1,0 +1,1 @@
+fit_lifeexp_model <- function(df, year=2007){ stopifnot(is.data.frame(df)); dsub <- dplyr::filter(df, year==year); fit <- lm(lifeExp ~ log_gdp + continent, data=dsub); list(model=fit, tidy=broom::tidy(fit, conf.int=TRUE)) }
