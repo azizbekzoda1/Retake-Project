@@ -1,0 +1,1 @@
+clean_gapminder <- function(df){ stopifnot(is.data.frame(df)); df <- dplyr::mutate(df, continent=factor(continent), log_gdp=log(gdpPercap)); dplyr::relocate(df, country, continent, year, lifeExp, gdpPercap, log_gdp, pop) }
