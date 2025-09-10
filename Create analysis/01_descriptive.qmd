@@ -1,1 +1,1 @@
-
+Add Quarto config and install script (Shokhrukhbek)
